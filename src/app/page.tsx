@@ -6,7 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-import { Star, Chart, PiggyBank } from 'lucide-react';
+import { Star, PiggyBank } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
           description="Understanding the value of NovaFlow tokens within our ecosystem and how they can leverage your experience." 
           kpiItems={[
             { value: "100M", description: "Total Supply", icon: Star },
-            { value: "40M", description: "Market Volume", icon: Chart },
+            { value: "40M", description: "Market Volume", icon: PiggyBank },
             { value: "25M", description: "Liquidity", icon: PiggyBank },
           ]} 
         />
